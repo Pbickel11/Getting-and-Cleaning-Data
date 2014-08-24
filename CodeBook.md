@@ -1,12 +1,12 @@
 Getting and Cleaning Data Project Code Book
 ============================================
 This file describes the variables, data, and work that I have performed to clean the data.  
-* The site where the data was obtained:  
+The site where the data was obtained:  
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones      
 The data for the project:  
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
 
-* The run_analysis.R script performs the following steps:   
+The run_analysis.R script performs the following steps:   
  1. Read X_train.txt, y_train.txt and subject_train.txt from the "./data/train" folder and store them as trainData, trainLabel and trainSubject.       
  2. Read X_test.txt, y_test.txt and subject_test.txt from the "./data/test" folder and store them as testData, testLabel and testsubject.  
  3. Concatenate testData and trainData to generate a 10299x561 data frame named joinData. Concatenate testLabel and trainLabel to generate a 10299x1 data frame named joinLabel. Concatenate testSubject and trainSubject to generate a 10299x1 data frame named joinSubject.  
